@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>To-Do List</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container p-3 my-3 border bg-dark text-white">
+        <h1>La lista de la compra</h1>
+        <p>Cosas que hay que comprar listadas en una lista de la compra, que es la siguiente:</p>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#lista">Lista completa</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#comprados">Comprados</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#pendientes">Pendientes</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane container active" id="lista">
+                <table class="table table-light table-striped">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Estado</th>
+                            <th>Elemento</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" value=""></label>
+                                </div>
+                            </td>
+                            <td>Carne</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" value=""></label>
+                                </div>
+                            </td>
+                            <td>Verdura</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" value=""></label>
+                                </div>
+                            </td>
+                            <td>Queso</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tab-pane container fade" id="comprados">
+                <table class="table table-light table-striped">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Estado</th>
+                            <th>Elemento</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" value=""></label>
+                                </div>
+                            </td>
+                            <td>Carne</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" value=""></label>
+                                </div>
+                            </td>
+                            <td>Verdura</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" value=""></label>
+                                </div>
+                            </td>
+                            <td>Queso</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tab-pane container fade" id="pendientes">
+                <table class="table table-light table-striped">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Estado</th>
+                            <th>Elemento</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" value=""></label>
+                                </div>
+                            </td>
+                            <td>Carne</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" value=""></label>
+                                </div>
+                            </td>
+                            <td>Verdura</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" value=""></label>
+                                </div>
+                            </td>
+                            <td>Queso</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <h2>Progreso general de la compra</h2>
+        <div class="progress">
+            <div class="progress-bar" style="width:70%">70%</div>
+        </div>
+    </div>
+</body>
+
+</html>
